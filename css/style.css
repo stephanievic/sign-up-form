@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(208, 193, 212, 0.623);
+}
+
+#container {
+    height: 85vh;
+    width: 85%;
+    margin-top: 3%;
+    display: flex;
+    background-color: rgba(59, 47, 80, 0.699);
+    border-radius: 10px;
+    box-shadow: rgba(34, 32, 32, 0.226) 0px 4px 12px;
+}
+
+#welcome {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#welcome h1{
+    font-size: 2.6em;
+    color:rgb(201, 187, 214);
+    text-shadow: rgba(59, 47, 80, 0.699) 0px 3px 6px;
+}
+
+#have-account{
+    background-color: transparent;
+    margin-top: 20px;
+    padding: 12px 33px;
+    border-radius: 10px;
+    color:rgb(201, 187, 214);
+    font-weight: 600;
+    border-color: rgb(201, 187, 214);
+}
+
+#have-account:hover{
+    color: rgba(59, 47, 80, 0.699);
+    background-color: rgb(201, 187, 214);
+    transition: 0.5s;
+}
+
+#form-content{
+    width: 70%;
+    display: flex;
+    background-color: rgb(201, 187, 214);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#form-content h2{
+    font-size: 2.6em;
+    color: rgba(59, 47, 80, 0.699);
+    text-align: center;
+    margin: 55px 0px;
+}
+
+#form{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+label{
+    font-size: 0.9em;
+}
+
+input{
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: transparent;
+  
+    border-bottom: 2px rgba(59, 47, 80, 0.699);
+    outline: none;
+}
