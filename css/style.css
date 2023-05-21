@@ -13,13 +13,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(208, 193, 212, 0.623);
+    background-color: rgba(195, 176, 201, 0.623);
 }
 
 #container {
-    height: 85vh;
-    width: 85%;
-    margin-top: 3%;
+    height: 90vh;
+    width: 90%;
+    margin-top: 2.5%;
     display: flex;
     background-color: rgba(59, 47, 80, 0.699);
     border-radius: 10px;
@@ -42,24 +42,24 @@ body {
 }
 
 #have-account{
-    background-color: transparent;
     margin-top: 20px;
     padding: 12px 33px;
     border-radius: 10px;
-    color:rgb(201, 187, 214);
+    color: rgba(59, 47, 80, 0.699);
+    background-color: rgb(201, 187, 214);
     font-weight: 600;
     border-color: rgb(201, 187, 214);
 }
 
 #have-account:hover{
-    color: rgba(59, 47, 80, 0.699);
-    background-color: rgb(201, 187, 214);
+    background-color: transparent;
+    color:rgb(201, 187, 214);
     transition: 0.5s;
+    cursor: pointer;
 }
 
 #form-content{
-    width: 70%;
-    display: flex;
+    width: 80%;
     background-color: rgb(201, 187, 214);
     display: flex;
     align-items: center;
@@ -67,14 +67,22 @@ body {
 }
 
 #form-content h2{
-    font-size: 2.6em;
+    font-size: 2.8em;
     color: rgba(59, 47, 80, 0.699);
     text-align: center;
-    margin: 55px 0px;
+    margin: 55px 0px 45px 0px;
 }
 
-#form{
-    width: 40%;
+form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-control{
+    width: 90%;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -82,13 +90,43 @@ body {
 
 label{
     font-size: 0.9em;
+    font-weight: 600;
+    color: rgb(70, 43, 94);
 }
 
 input{
-    padding: 8px;
-    margin-bottom: 10px;
-    background-color: transparent;
-  
-    border-bottom: 2px rgba(59, 47, 80, 0.699);
+    color: rgb(201, 187, 214);
+    font-weight: 600;
+    padding: 9px;
+    background-color: rgba(59, 47, 80, 0.699);
+    border-radius: 7px;
+    border: none;
     outline: none;
+}
+
+::-webkit-input-placeholder{
+    color: rgba(201, 187, 214, 0.822);
+    font-size: 0.7em;
+    font-weight: 600;
+}
+
+.submit-form{
+    display: flex;
+    justify-content: center;
+}
+
+#submit-btn{
+    cursor: pointer;
+    padding: 9px 30px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    color: rgba(201, 187, 214, 0.822);
+    font-weight: bolder;
+    background-image: linear-gradient(to right, rgba(74, 62, 94, 0.699),rgb(138, 119, 156) );
+}
+
+.error-message{
+    color: rgb(145, 52, 52);
+    display: none;
 }

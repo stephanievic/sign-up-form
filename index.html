@@ -20,20 +20,37 @@
             <h2>Create your account</h2>
             
             <form id="form">
-                <label for="name"> Name</label>
-                <input type="text" name="name" id="name" placeholder="Your full name">
+                <div class="form-control">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Your full name" autocomplete="off">
+                    <small class="error-message">error</small>
+                </div>
 
-                <label for="email"> E-mail</label>
-                <input type="email" name="email" id="email" placeholder="Ex.: somebody@gmail.com">
+                <div class="form-control">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Ex.: name@gmail.com" autocomplete="off">
+                    <small class="error-message">error</small>
+                </div>
 
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password" placeholder="Minimum of 8 characters">
+                <div class="form-control">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Minimum of 8 characters">
+                    <small class="error-message">error</small>
+                </div>
 
-                <label for="confirm-password"> Confirm password</label>
-                <input type="password" name="password" id="password" placeholder="Confirm the passw">
-
+                <div class="form-control">
+                    <label for="confirm-password"> Confirm password</label>
+                    <input type="password" name="password" id="password" placeholder="Confirm the passw">
+                    <small class="error-message">error</small>
+                </div> 
+                
+                <div class="submit-form">
+                    <button type="submit" id="submit-btn">Submit</button>
+                </div>
             </form>
         </section>
     </main>
+
+    <script src="js/scri.js"></script>
 </body>
 </html>
