@@ -127,6 +127,10 @@ input{
 }
 
 .error-message{
-    color: rgb(145, 52, 52);
+    color: #913434;
+    font-size: 0.7em;
+}
+
+.hide {
     display: none;
 }
