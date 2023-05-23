@@ -9,7 +9,7 @@ function validation (){
     const email = inputs.email.value.trim();
     const password = inputs.password.value.trim();
     const confirmPassword = inputs.confirmPassword.value.trim();
-    correct = 0;
+    //correct = 0;
 
     if (name == ''){
         errorMessage(0, 'This field cannot be empty.');
@@ -18,7 +18,7 @@ function validation (){
         errorMessage(0, 'Name entered is too short. Check if you typed it correctly.');
     } else {
         correctInput(0) 
-        correct++;
+        //correct++;
     }
 
     if (email == ''){
@@ -28,7 +28,7 @@ function validation (){
         errorMessage(1, 'E-mail entered doe not exist.');
     } else {
         correctInput(1);
-        correct++; 
+        //correct++; 
     }
 
     if (password == ''){
@@ -45,7 +45,7 @@ function validation (){
         errorMessage(3, 'The password must be the same as in the previous field.')
     } else {
         correctInput(3);
-        correct++;
+        //correct++;
     }
 }
 
