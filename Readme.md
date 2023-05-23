@@ -1,0 +1,18 @@
+## Formulário de Cadastro 💜
+
+> Área de "Criar Conta" com validações dos inputs
+
+Projeto realizado com objetivo de praticar conceitos aprendidos das linguagens. O formulário conta com validações para e-mail, senha e nome. Para algumas das validações, foram utilizadas expressões regulares (consultadas em sites durante o estudo).
+
+### Tecnologias utilizadas
+
+![image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![image](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![image](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+### Screenshots
+
+<div style = "display= inline_block">
+  <img align = "center" src ="https://github.com/stephanievic/stephanievic/assets/109833971/7b927c92-02cb-4623-8d20-90e763ae493a">
+  <img align = "center" src = "https://github.com/stephanievic/stephanievic/assets/109833971/ba589d51-4130-463f-b5ee-c1a0602b556b">
+</div>
