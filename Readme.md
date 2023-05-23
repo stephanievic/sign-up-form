@@ -2,7 +2,7 @@
 
 > Área de "Criar Conta" com validações dos inputs
 
-Projeto realizado com objetivo de praticar conceitos aprendidos das linguagens. O formulário conta com validações para e-mail, senha e nome. Para algumas das validações, foram utilizadas expressões regulares (consultadas em sites durante o estudo).
+Projeto realizado com objetivo de praticar conceitos aprendidos das linguagens. O formulário conta com validações para e-mail, senha e nome. Para algumas das validações, foram utilizadas expressões regulares (consultadas em sites e vídeos durante o estudo).
 
 ### Tecnologias utilizadas
 
