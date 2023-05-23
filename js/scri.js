@@ -1,28 +1,35 @@
 const submitBtn = document.querySelector("#submit-btn");
 const inputs = document.getElementsByTagName('input');
 const smallErr = document.querySelectorAll(".errorMesg");
+let correct;
 
-console.log (smallErr[0])
 //validação dos inputs
 function validation (){
     const name = inputs.name.value.trim();
     const email = inputs.email.value.trim();
     const password = inputs.password.value.trim();
     const confirmPassword = inputs.confirmPassword.value.trim();
+    correct = 0;
 
     if (name == ''){
         errorMessage(0, 'This field cannot be empty.');
     }
     else if (name < 5){
         errorMessage(0, 'Name entered is too short. Check if you typed it correctly.');
-    } else correctInput(0);
+    } else {
+        correctInput(0) 
+        correct++;
+    }
 
     if (email == ''){
         errorMessage(1, 'This field cannot be empty.');
     }
     else if (!(isEmail(email))){
         errorMessage(1, 'E-mail entered doe not exist.');
-    } else correctInput(1);
+    } else {
+        correctInput(1);
+        correct++; 
+    }
 
     if (password == ''){
         errorMessage(2, 'This field cannot be empty.');
@@ -36,9 +43,10 @@ function validation (){
     }
     else if (confirmPassword != password){
         errorMessage(3, 'The password must be the same as in the previous field.')
-    } else correctInput(3);
-
-    
+    } else {
+        correctInput(3);
+        correct++;
+    }
 }
 
 //função mensagem de erro
@@ -75,8 +83,10 @@ function validPassword (password){
 
 //eventos
 submitBtn.addEventListener("click", function (e) {
-    e.preventDefault();
-
     validation();
-    inputs.value = '';
+    
+    //"submeter" dados caso esteja tudo correto
+    /*if (correct == 3){
+        submitBtn.type = "submit";
+    }*/
 });
