@@ -14,5 +14,5 @@ Projeto realizado com objetivo de praticar conceitos aprendidos das linguagens. 
 
 <div style = "display= inline_block">
   <img align = "center" src ="https://github.com/stephanievic/stephanievic/assets/109833971/7b927c92-02cb-4623-8d20-90e763ae493a">
-  <img align = "center" src = "https://github.com/stephanievic/sign-up-form/assets/109833971/7c5f3cf4-e12a-4247-8168-c05a616912c9">
+  <img align = "center" src = "https://github.com/stephanievic/sign-up-form/assets/109833971/88c55004-3be9-440a-9301-788ec706b79e">
 </div>
